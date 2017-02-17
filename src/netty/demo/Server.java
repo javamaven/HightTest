@@ -24,7 +24,7 @@ public class Server {
 		EventLoopGroup pGroup = new NioEventLoopGroup();
 		EventLoopGroup cGroup = new NioEventLoopGroup();
 		
-		//2 创建服务器辅助类
+		//2 启动NIO服务的辅助启动类
 		ServerBootstrap b = new ServerBootstrap();
 		b.group(pGroup, cGroup)
 		 .channel(NioServerSocketChannel.class)

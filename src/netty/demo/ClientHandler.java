@@ -1,5 +1,7 @@
 package netty.demo;
 
+import io.netty.channel.ChannelFuture;
+import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.util.ReferenceCountUtil;
@@ -16,6 +18,21 @@ public class ClientHandler extends ChannelHandlerAdapter{
 		try {
 			String response = (String)msg;
 			System.out.println("Client: " + response);
+
+
+/*			final ChannelFuture f = ctx.writeAndFlush(time); // (3)
+			f.addListener(new ChannelFutureListener() {
+				@Override
+				public void operationComplete(ChannelFuture future) {
+					assert f == future;
+					ctx.close();
+				}
+			}); //
+			监听关闭通道
+			f.addListener(ChannelFutureListener.CLOSE);
+
+			(4)*/
+
 		} finally {
 			ReferenceCountUtil.release(msg);
 		}
