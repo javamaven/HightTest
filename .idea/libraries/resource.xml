@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="resource">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../resource/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../resource/httpclient-4.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../resource/httpclient-cache-4.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../resource/httpcore-4.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../resource/httpmime-4.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../resource/jboss-marshalling-1.3.0.CR9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../resource/jboss-marshalling-serial-1.3.0.CR9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../resource/log4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../resource/netty-all-5.0.0.Alpha2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../resource/protobuf-java-2.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../resource/sigar.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
